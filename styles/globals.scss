@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Staatliches&display=swap');
+
+// Light Mode
+:root {
+  // Fonts
+  --ff-d: 'Poppins', sans-serif;
+  --ff-b: 'Staatliches', cursive;
+
+  // BG Colors
+  --bgc-1: #070d23; // top bg color
+  --bgc-2: #222c4f; // bot bg color
+  --bgc-3: #724cf9; // special bg color
+
+  // Font Color
+  --fc-1: #ffffff; //
+  --fc-2: #535b73; //
+  --fc-3: #464d65; // deep
+
+  // Shadows
+}
+
+// Dark Mode
+[data-theme='dark'] {
+  // BG Colors
+  --bgc-1: #98999e; // top bg color
+  --bgc-2: #e7e8eb; // bot bg color
+  --bgc-3: #724cf9; // special bg color
+
+  // Font Color
+  --fc-1: #1b1818; //
+  --fc-2: #11172b; //
+  --fc-3: #464d65; // deep
+}
+
+// Body Style
+#__next,
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: var(--bgc-1);
+  padding: 0 1rem;
+}

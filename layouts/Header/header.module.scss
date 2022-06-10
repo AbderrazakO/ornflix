@@ -1,0 +1,20 @@
+.header {
+  .navBar {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: -999%;
+    background-color: var(--bgc-1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .logo {
+      font-family: var(--ff-b);
+      width: 100%;
+      text-align: center;
+      color: var(--bgc-2);
+      font-size: 2rem;
+    }
+  }
+}
